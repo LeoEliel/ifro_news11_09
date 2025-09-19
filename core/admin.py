@@ -10,4 +10,4 @@ class CargoAdmin(admin.ModelAdmin):
 @admin.register(Funcionario)
 class FuncionarioAdmin(admin.ModelAdmin):
     list_display = ['nome', 'cargo', 'ativo', 'criado']
-    list_editable = ['ativo', '']
+    list_editable = ['ativo']
